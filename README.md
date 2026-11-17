@@ -34,7 +34,7 @@ Vercel KV (Redis) — stores Gmail tokens + notes
 
 ### Tool Routing
 
-Every user message is inspected for category keywords before hitting the LLM. Instead of sending all 43 tool definitions on every request, the agent routes to only the relevant subset:
+Every user message is inspected for category keywords before hitting the LLM. Instead of sending all 49 tool definitions on every request, the agent routes to only the relevant subset:
 
 - Message contains "issue", "pr", "repo" → GitHub tools only
 - Message contains "email", "inbox", "gmail" → Gmail tools only
